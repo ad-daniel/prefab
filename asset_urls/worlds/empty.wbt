@@ -1,0 +1,99 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/master/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.3595513949726805 -0.2919423588259167 -0.8862801213478497 4.389138832855723
+  position 14.782265394888961 -76.14943542273878 78.02505247882348
+}
+Background {
+  skyColor [
+    1 1 1
+  ]
+}
+TexturedBackgroundLight {
+}
+DEF SHAPE_RELATIVE Shape {
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../../../../webots_master/tests/rendering/worlds/textures/orange_texture.jpg"
+      ]
+    }
+  }
+  geometry Mesh {
+    url [
+      "../../../../webots_master/projects/default/worlds/meshes/suzanne.obj"
+    ]
+  }
+}
+DEF SHAPE_WEBOTS Transform {
+  translation -2.93 0 0
+  children [
+    DEF RELATIVE Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "webots://tests/rendering/worlds/textures/pink_texture.jpg"
+          ]
+        }
+      }
+      geometry Mesh {
+        url [
+          "webots://tests/cache/worlds/meshes/cube_0.1m.obj"
+        ]
+      }
+    }
+  ]
+}
+DEF SHAPE_WEB Transform {
+  translation -4.35 0 0
+  children [
+    DEF RELATIVE Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/master/projects/default/worlds/textures/water.jpg"
+          ]
+        }
+      }
+      geometry Mesh {
+        url [
+          "https://raw.githubusercontent.com/cyberbotics/webots/master/projects/default/worlds/meshes/suzanne.obj"
+        ]
+      }
+    }
+  ]
+}
+DEF CAD_RELATIVE Transform {
+  translation 0.51 5.05 0
+  children [
+    CadShape {
+      url [
+        "../../../../webots_master/tests/rendering/worlds/meshes/colored_cube.obj"
+      ]
+    }
+  ]
+}
+DEF CAD_WEBOTS Transform {
+  translation -3.4 5.05 0
+  children [
+    CadShape {
+      url [
+        "webots://tests/rendering/worlds/meshes/colored_cube.dae"
+      ]
+    }
+  ]
+}
+DEF CAD_WEB Transform {
+  translation -5.79 5.05 0
+  children [
+    CadShape {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/master/projects/robots/franka_emika/panda/protos/meshes/link6.dae"
+      ]
+    }
+  ]
+}

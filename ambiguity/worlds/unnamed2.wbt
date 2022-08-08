@@ -1,0 +1,24 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "../protos/LocalBall.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1401180926837124 0.8162687093486187 0.5604215504787613 0.5944521101721874
+  position -0.3934452685777806 -0.16689353099867313 0.23651984802884496
+}
+Background {
+  skyColor [
+    0.15 0.45 1
+  ]
+}
+Ball {
+  translation 0 -0.05 0
+  name "ball 1"
+}
+LocalBall {
+  translation 0 0.05 0
+  name "ball 2"
+}

@@ -1,0 +1,20 @@
+#VRML_SIM R2022b utf8
+# Describe the functionality of your PROTO here.
+
+EXTERNPROTO "webots://projects/robots/franka_emika/panda/protos/Panda.proto"
+
+PROTO MyPanda [
+  field SFVec3f translation 0 0 0 # Is `Transform.translation`.
+  field SFRotation rotation 0 0 1 0 # Is `Transform.rotation`.
+  field SFString name "panda" # Is `Solid.name`.
+  field SFString controller "<generic>"
+
+]
+{
+  Panda {
+    translation IS translation
+    rotation IS rotation
+    name IS name
+    controller IS controller
+  }
+}

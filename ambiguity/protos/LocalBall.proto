@@ -1,0 +1,15 @@
+#VRML_SIM R2022b utf8
+# Describe the functionality of your PROTO here.
+
+EXTERNPROTO "Ball.proto"
+
+PROTO LocalBall [
+  field SFVec3f translation 0 0 0
+  field SFString name "ball"
+]
+{
+  Ball {
+    translation IS translation
+    name IS name
+  }
+}
