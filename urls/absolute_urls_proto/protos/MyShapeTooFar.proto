@@ -10,13 +10,13 @@ PROTO MyShapeTooFar [
     appearance PBRAppearance {
       baseColorMap ImageTexture {
         url [
-          "/home/daniel/Documents/PREFAB/urls/unstreamable_assets/black_texture.jpg"
+          "/home/daniel/prefab/urls/unstreamable_assets/black_texture.jpg"
         ]
       }
     }
     geometry Mesh {
       url [
-        "/home/daniel/Documents/PREFAB/urls/unstreamable_assets/Harvester.obj"
+        "/home/daniel/prefab/urls/unstreamable_assets/Harvester.obj"
       ]
     }
   }

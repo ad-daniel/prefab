@@ -10,13 +10,13 @@ PROTO MyShapeForward [
     appearance PBRAppearance {
       baseColorMap ImageTexture {
         url [
-          "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/text2/green_texture.jpg"
+          "/home/daniel/prefab/urls/absolute_urls_proto/protos/text2/green_texture.jpg"
         ]
       }
     }
     geometry Mesh {
       url [
-        "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/meshes/forklift.obj"
+        "/home/daniel/prefab/urls/absolute_urls_proto/protos/meshes/forklift.obj"
       ]
     }
   }

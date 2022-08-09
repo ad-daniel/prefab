@@ -11,40 +11,40 @@ PROTO MyBackground [
       0.4 0.7 1
     ]
     backUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_back.jpg"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_back.jpg"
     ]
     bottomUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_bottom.jpg"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_bottom.jpg"
     ]
     frontUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_front.jpg"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_front.jpg"
     ]
     leftUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_left.jpg"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_left.jpg"
     ]
     rightUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_right.jpg"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_right.jpg"
     ]
     topUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_top.jpg"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_top.jpg"
     ]
     backIrradianceUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_back.hdr"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_back.hdr"
     ]
     bottomIrradianceUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_bottom.hdr"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_bottom.hdr"
     ]
     frontIrradianceUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_front.hdr"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_front.hdr"
     ]
     leftIrradianceUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_left.hdr"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_left.hdr"
     ]
     rightIrradianceUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_right.hdr"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_right.hdr"
     ]
     topIrradianceUrl [
-      "/home/daniel/Documents/PREFAB/urls/absolute_urls_proto/protos/backg/empty_office_top.hdr"
+      "/home/daniel/prefab/urls/absolute_urls_proto/protos/backg/empty_office_top.hdr"
     ]
   }
 }
