@@ -4,7 +4,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation 0.29217800994669046 -0.23602859618661343 -0.926780725029264 4.426889789692696
-  position 7.584427061616367 -31.362207415197012 22.178144515123776
+  position 13.720025624154697 -59.89385776919918 42.61006474036836
 }
 DEF ABSOLUTE_BACKGROUND Background {
   skyColor [
@@ -103,6 +103,16 @@ DEF ABSOLUTE_CAD Transform {
     CadShape {
       url [
         "/home/daniel/prefab/urls/absolute_urls_basenode/protos/meshes/forklift.obj"
+      ]
+    }
+  ]
+}
+DEF ABSOLUTE_CAD_DAE Transform {
+  translation 10.05 0 0
+  children [
+    CadShape {
+      url [
+        "/home/daniel/prefab/urls/absolute_urls_basenode/protos/meshes/elf.dae"
       ]
     }
   ]

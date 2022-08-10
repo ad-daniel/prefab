@@ -5,12 +5,13 @@ EXTERNPROTO "../protos/MyBackground.proto"
 EXTERNPROTO "../protos/MyShapeBackward.proto"
 EXTERNPROTO "../protos/MyShapeForward.proto"
 EXTERNPROTO "../protos/MyShapeTooFar.proto"
+EXTERNPROTO "../protos/MyProtoDae.proto"
 
 WorldInfo {
 }
 Viewpoint {
   orientation -0.24986399444850213 0.23182322574877753 0.9401201924656605 1.7070731443788576
-  position 1.0983001872433198 -27.430744605889952 15.331069893417599
+  position 0.8109511889054383 -46.213022800740404 28.12651004688318
 }
 MyBackground {
 }
@@ -32,4 +33,7 @@ Transform {
 }
 DEF RELATIVE_CAD_PROTO MyProto {
   translation 4.33 1.18 0
+}
+MyProtoDae {
+  translation 8.56 0.1 0
 }

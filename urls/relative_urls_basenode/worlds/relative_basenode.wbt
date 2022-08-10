@@ -4,7 +4,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation 0.29217800994669046 -0.23602859618661343 -0.926780725029264 4.426889789692696
-  position 7.584427061616367 -31.362207415197012 22.178144515123776
+  position 8.232807624444309 -39.82635578224621 32.78183696952978
 }
 DEF RELATIVE_BACKGROUND Background {
   skyColor [
@@ -103,6 +103,16 @@ DEF RELATIVE_CAD Transform {
     CadShape {
       url [
         "../protos/meshes/forklift.obj"
+      ]
+    }
+  ]
+}
+DEF RELATIVE_CAD_DAE Transform {
+  translation 9.27 0 0
+  children [
+    CadShape {
+      url [
+        "../protos/meshes/elf.dae"
       ]
     }
   ]
