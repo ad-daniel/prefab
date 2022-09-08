@@ -12,11 +12,11 @@ PROTO MyShape [
       Shape {
         appearance PBRAppearance {
           baseColorMap ImageTexture {
-            url "textures/green_texture.jpg"
+            url "tex/green_texture.jpg"
           }
         }
         geometry Mesh {
-          url "meshes/suzanne.obj"
+          url "mes/suzanne.obj"
         }
       }
     ]

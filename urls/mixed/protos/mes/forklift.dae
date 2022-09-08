@@ -41,7 +41,7 @@
   </library_effects>
   <library_images>
     <image id="forklift_base_color_jpg" name="forklift_base_color_jpg">
-      <init_from>./textures/forklift_base_color.jpg</init_from>
+      <init_from>./tex/forklift_base_color.jpg</init_from>
     </image>
   </library_images>
   <library_materials>

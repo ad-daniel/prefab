@@ -10,7 +10,7 @@ PROTO MyCadObj [
     translation IS translation
     children [
       CadShape {
-        url "./meshes/forklift.obj"
+        url "./mes/forklift.obj"
       }
     ]
   }

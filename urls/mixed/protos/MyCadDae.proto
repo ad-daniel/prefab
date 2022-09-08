@@ -10,7 +10,7 @@ PROTO MyCadDae [
     translation IS translation
     children [
       CadShape {
-        url "./meshes/forklift.dae"
+        url "./mes/forklift.dae"
       }
     ]
   }
