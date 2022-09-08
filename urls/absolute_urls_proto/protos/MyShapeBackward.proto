@@ -10,13 +10,13 @@ PROTO MyShapeBackward [
     appearance PBRAppearance {
       baseColorMap ImageTexture {
         url [
-          "/home/daniel/prefab/urls/absolute_urls_proto/worlds/textures/orange_texture.jpg"
+          "/home/daniel/prefab/urls/absolute_urls_proto/worlds/tex/orange_texture.jpg"
         ]
       }
     }
     geometry Mesh {
       url [
-        "/home/daniel/prefab/urls/absolute_urls_proto/worlds/meshes/suzanne.obj"
+        "/home/daniel/prefab/urls/absolute_urls_proto/worlds/mes/suzanne.obj"
       ]
     }
   }

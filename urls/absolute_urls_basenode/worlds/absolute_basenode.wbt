@@ -51,13 +51,13 @@ DEF ABSOLUTE_MESH Shape {
   appearance PBRAppearance {
     baseColorMap ImageTexture {
       url [
-        "/home/daniel/prefab/urls/absolute_urls_basenode/worlds/textures/orange_texture.jpg"
+        "/home/daniel/prefab/urls/absolute_urls_basenode/worlds/tex/orange_texture.jpg"
       ]
     }
   }
   geometry Mesh {
     url [
-      "/home/daniel/prefab/urls/absolute_urls_basenode/worlds/meshes/suzanne.obj"
+      "/home/daniel/prefab/urls/absolute_urls_basenode/worlds/mes/suzanne.obj"
     ]
   }
 }
@@ -102,7 +102,7 @@ DEF ABSOLUTE_CAD Transform {
   children [
     CadShape {
       url [
-        "/home/daniel/prefab/urls/absolute_urls_basenode/protos/meshes/forklift.obj"
+        "/home/daniel/prefab/urls/absolute_urls_basenode/protos/mes/forklift.obj"
       ]
     }
   ]
@@ -112,7 +112,7 @@ DEF ABSOLUTE_CAD_DAE Transform {
   children [
     CadShape {
       url [
-        "/home/daniel/prefab/urls/absolute_urls_basenode/protos/meshes/elf.dae"
+        "/home/daniel/prefab/urls/absolute_urls_basenode/protos/mes/elf.dae"
       ]
     }
   ]

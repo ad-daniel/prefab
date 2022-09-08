@@ -13,7 +13,7 @@ PROTO MyProto [
     children [
       CadShape {
         url [
-          "/home/daniel/prefab/urls/absolute_urls_proto/protos/meshes/forklift.obj"
+          "/home/daniel/prefab/urls/absolute_urls_proto/protos/mes/forklift.obj"
         ]
       }
     ]

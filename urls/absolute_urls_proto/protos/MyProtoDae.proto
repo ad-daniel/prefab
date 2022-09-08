@@ -13,7 +13,7 @@ PROTO MyProtoDae [
     children [
       CadShape {
         url [
-          "/home/daniel/prefab/urls/absolute_urls_proto/protos/meshes/elf.dae"
+          "/home/daniel/prefab/urls/absolute_urls_proto/protos/mes/elf.dae"
         ]
       }
     ]
