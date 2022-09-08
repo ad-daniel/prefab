@@ -13,7 +13,7 @@ PROTO MyProto [
     children [
       CadShape {
         url [
-          "./meshes/forklift.obj"
+          "./mes/forklift.obj"
         ]
       }
     ]

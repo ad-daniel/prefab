@@ -51,13 +51,13 @@ DEF RELATIVE_MESH Shape {
   appearance PBRAppearance {
     baseColorMap ImageTexture {
       url [
-        "./textures/orange_texture.jpg"
+        "./tex/orange_texture.jpg"
       ]
     }
   }
   geometry Mesh {
     url [
-      "meshes/suzanne.obj"
+      "mes/suzanne.obj"
     ]
   }
 }
@@ -102,7 +102,7 @@ DEF RELATIVE_CAD Transform {
   children [
     CadShape {
       url [
-        "../protos/meshes/forklift.obj"
+        "../protos/mes/forklift.obj"
       ]
     }
   ]
@@ -112,7 +112,7 @@ DEF RELATIVE_CAD_DAE Transform {
   children [
     CadShape {
       url [
-        "../protos/meshes/elf.dae"
+        "../protos/mes/elf.dae"
       ]
     }
   ]

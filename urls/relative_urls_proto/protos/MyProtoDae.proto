@@ -13,7 +13,7 @@ PROTO MyProtoDae [
     children [
       CadShape {
         url [
-          "./meshes/elf.dae"
+          "./mes/elf.dae"
         ]
       }
     ]

@@ -16,7 +16,7 @@ PROTO MyShapeForward [
     }
     geometry Mesh {
       url [
-        "./meshes/forklift.obj"
+        "./mes/forklift.obj"
       ]
     }
   }

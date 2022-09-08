@@ -12,16 +12,16 @@
   </asset>
   <library_images>
     <image id="ce_jpg" name="ce_jpg">
-      <init_from>textures/ce.jpg</init_from>
+      <init_from>tex/ce.jpg</init_from>
     </image>
     <image id="Body_tex_003_jpg" name="Body_tex_003_jpg">
-      <init_from>textures/Body_tex_003.jpg</init_from>
+      <init_from>tex/Body_tex_003.jpg</init_from>
     </image>
     <image id="Face_tex_002_toObj_jpg" name="Face_tex_002_toObj_jpg">
-      <init_from>textures/Face_tex_002_toObj.jpg</init_from>
+      <init_from>tex/Face_tex_002_toObj.jpg</init_from>
     </image>
     <image id="Hair_tex_001_jpg" name="Hair_tex_001_jpg">
-      <init_from>textures/Hair_tex_001.jpg</init_from>
+      <init_from>tex/Hair_tex_001.jpg</init_from>
     </image>
   </library_images>
   <library_effects>
