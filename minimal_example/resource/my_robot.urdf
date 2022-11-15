@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<robot name="My robot">
+    <webots>
+        <device reference="gps1" type="GPS">
+            <ros>
+                <enabled>true</enabled>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+
+        <plugin type="webots_ros2_driver::Ros2IMU">
+            <enabled>true</enabled>
+            <topicName>/imu</topicName>
+            <alwaysOn>true</alwaysOn>
+            <inertialUnitName>inertial_unit</inertialUnitName>
+            <gyroName>gyro1</gyroName>
+            <inertialUnitName>inertial_unit</inertialUnitName>
+            <accelerometerName>accelerometer1</accelerometerName>
+        </plugin>
+
+        <plugin type="minimal_example.my_robot_driver.MyRobotDriver" />
+    </webots>
+</robot>
