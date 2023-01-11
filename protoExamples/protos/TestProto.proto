@@ -4,14 +4,17 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projec
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/objects/balls/protos/Ball.proto"
 
 PROTO TestProto [
-  field MFNode extension []
-
+  field MFNode extension [Ball{}]
+  field MFNode extension2 [Ball{}]
 ]
 {
   Group {
     children [
       Group {
         children IS extension
+      }
+      Group {
+        children IS extension2
       }
     ]
 
