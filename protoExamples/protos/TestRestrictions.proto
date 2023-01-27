@@ -4,6 +4,7 @@
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Copper.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Cardboard.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/softbank/nao/protos/Nao.proto"
 
 PROTO TestRestrictions [
   field SFString{"box", "cylinder"} sfstring "box"
@@ -14,7 +15,7 @@ PROTO TestRestrictions [
   field SFColor{1 0 0, 0 1 0, 0 0 1} sfcolor 0 1 0
   field SFRotation{0 0 1 0, 0 0 1 1, 0 0 1 2} sfrotation 0 0 1 1
   field SFNode{Copper{}, Cardboard{}} sfnode Copper{}
-  field MFNode{OfficeChair{}} mfnode []
+  field MFNode{OfficeChair{}, Nao{}} mfnode []
 ]
 {
   Group {
