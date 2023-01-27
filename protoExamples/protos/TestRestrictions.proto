@@ -13,6 +13,7 @@ PROTO TestRestrictions [
   field SFColor{1 0 0, 0 1 0, 0 0 1} sfcolor 0 1 0
   field SFRotation{0 0 1 0, 0 0 1 1, 0 0 1 2} sfrotation 0 0 1 1
   field SFNode{Copper{}, Cardboard{}} sfnode Copper{}
+  field MFNode{OfficeChair{}} mfnode []
 ]
 {
   Group {
@@ -143,6 +144,10 @@ PROTO TestRestrictions [
             }
           }
         ]
+      }
+      Transform {
+        translation 0 1.20 0.05
+        children IS mfnode
       }
     ]
   }
