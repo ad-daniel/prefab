@@ -1,22 +1,25 @@
 #VRML_SIM R2023b utf8
 
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/objects/fruits/protos/Apple.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/develop/projects/appearances/protos/Leather.proto"
 
 PROTO TestProto [
-  field MFNode extension [Ball{}]
-  field MFNode extension2 [Ball{}]
+  field SFNode app Leather { colorOverride 0 1 0 }
 ]
 {
   Group {
     children [
-      Group {
-        children IS extension
+      DEF S1 Shape {
+        appearance IS app
+        geometry Box {
+          size 0.2 0.1 0.1
+        }
       }
-      Group {
-        children IS extension2
+      Transform {
+        rotation 0 0 1 1.5
+        children [
+          USE S1
+        ]
       }
     ]
-
   }
 }
